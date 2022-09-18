@@ -2,5 +2,7 @@ version: "3.8"
 services:
   appserv:
     build: .
+    container_name: nikitra
+    image: nikitry:1.2
     ports:
       - 80:80
